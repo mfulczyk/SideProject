@@ -1,2 +1,2 @@
-# SideProject
-Sideproject Cirlce Page
+# DogApp
+name is WIP

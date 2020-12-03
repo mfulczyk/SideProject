@@ -1,25 +1,36 @@
 {
-  "name": "gulp-install",
-  "version": "1.0.0",
-  "description": "",
-  "browserslist": [
-    "defaults"
-  ],
-  "main": "index.js",
-  "dependencies": {
-    "gulp-sourcemaps": "^2.6.5"
+  "name": "es6-react",
+  "version": "2.1.0",
+  "scripts": {
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^4.14.1",
-    "sass": "^1.26.5"
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "whatwg-fetch": "^3.4.1"
   },
+  "description": "name is WIP",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfulczyk/DogApp.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfulczyk/DogApp/issues"
+  },
+  "homepage": "https://github.com/mfulczyk/DogApp#readme"
 }
